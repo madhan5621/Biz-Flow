@@ -1,0 +1,397 @@
+{
+  "C:\\Users\\Madhan\\Desktop\\bizflow\\client\\.oxlintrc.json": {
+    "mtime": 1784227597.692162,
+    "ast_hash": "5e6e3cea3e89137071c142dd7835b0ef",
+    "semantic_hash": "5e6e3cea3e89137071c142dd7835b0ef"
+  },
+  "C:\\Users\\Madhan\\Desktop\\bizflow\\client\\package.json": {
+    "mtime": 1784227694.8562262,
+    "ast_hash": "6156b282c1a03ae99fbc06829703c564",
+    "semantic_hash": "6156b282c1a03ae99fbc06829703c564"
+  },
+  "C:\\Users\\Madhan\\Desktop\\bizflow\\client\\postcss.config.js": {
+    "mtime": 1784227727.3465135,
+    "ast_hash": "c735540bb63936a123bc867d950c9f69",
+    "semantic_hash": "c735540bb63936a123bc867d950c9f69"
+  },
+  "C:\\Users\\Madhan\\Desktop\\bizflow\\client\\src\\App.jsx": {
+    "mtime": 1784228179.3209977,
+    "ast_hash": "43feb7c1287703a50c00a1deb61c70bc",
+    "semantic_hash": "43feb7c1287703a50c00a1deb61c70bc"
+  },
+  "C:\\Users\\Madhan\\Desktop\\bizflow\\client\\src\\components\\layout\\Breadcrumbs.jsx": {
+    "mtime": 1784228101.0477662,
+    "ast_hash": "40e066c7ae54390f4dddf0bb56c0371b",
+    "semantic_hash": "40e066c7ae54390f4dddf0bb56c0371b"
+  },
+  "C:\\Users\\Madhan\\Desktop\\bizflow\\client\\src\\components\\layout\\ErrorBoundary.jsx": {
+    "mtime": 1784228138.0521138,
+    "ast_hash": "b46831362d9c0c95c7b3e8660cf642bf",
+    "semantic_hash": "b46831362d9c0c95c7b3e8660cf642bf"
+  },
+  "C:\\Users\\Madhan\\Desktop\\bizflow\\client\\src\\components\\layout\\Navbar.jsx": {
+    "mtime": 1784228099.0347898,
+    "ast_hash": "e5db3c1c4b2127cca0ff020bfd073b9b",
+    "semantic_hash": "e5db3c1c4b2127cca0ff020bfd073b9b"
+  },
+  "C:\\Users\\Madhan\\Desktop\\bizflow\\client\\src\\components\\layout\\NotFound.jsx": {
+    "mtime": 1784228140.0751753,
+    "ast_hash": "32d90dae4d0ee967873af39b4e536bca",
+    "semantic_hash": "32d90dae4d0ee967873af39b4e536bca"
+  },
+  "C:\\Users\\Madhan\\Desktop\\bizflow\\client\\src\\components\\layout\\PageWrapper.jsx": {
+    "mtime": 1784228197.155557,
+    "ast_hash": "300aae98e29e76b713973ee23844f22a",
+    "semantic_hash": "300aae98e29e76b713973ee23844f22a"
+  },
+  "C:\\Users\\Madhan\\Desktop\\bizflow\\client\\src\\components\\layout\\ProtectedLayout.jsx": {
+    "mtime": 1784228125.6668394,
+    "ast_hash": "a10afda19b0b6125628c4cd16eb3b122",
+    "semantic_hash": "a10afda19b0b6125628c4cd16eb3b122"
+  },
+  "C:\\Users\\Madhan\\Desktop\\bizflow\\client\\src\\components\\layout\\PublicLayout.jsx": {
+    "mtime": 1784228131.2902112,
+    "ast_hash": "1c11a0e6ab893f807b1507676e19c312",
+    "semantic_hash": "1c11a0e6ab893f807b1507676e19c312"
+  },
+  "C:\\Users\\Madhan\\Desktop\\bizflow\\client\\src\\components\\layout\\Sidebar.jsx": {
+    "mtime": 1784228092.4249446,
+    "ast_hash": "e84ae13615e0ea86f7eee49b5aacc9f7",
+    "semantic_hash": "e84ae13615e0ea86f7eee49b5aacc9f7"
+  },
+  "C:\\Users\\Madhan\\Desktop\\bizflow\\client\\src\\components\\ui\\Avatar.jsx": {
+    "mtime": 1784227967.976848,
+    "ast_hash": "722a688c066ec5f42b47a3497bf8e4c8",
+    "semantic_hash": "722a688c066ec5f42b47a3497bf8e4c8"
+  },
+  "C:\\Users\\Madhan\\Desktop\\bizflow\\client\\src\\components\\ui\\Badge.jsx": {
+    "mtime": 1784227951.2702324,
+    "ast_hash": "6a931f821598c8c482fa7ffd59ca87eb",
+    "semantic_hash": "6a931f821598c8c482fa7ffd59ca87eb"
+  },
+  "C:\\Users\\Madhan\\Desktop\\bizflow\\client\\src\\components\\ui\\Button.jsx": {
+    "mtime": 1784227920.348632,
+    "ast_hash": "c306d99ef13c712b0356bbd12f868fca",
+    "semantic_hash": "c306d99ef13c712b0356bbd12f868fca"
+  },
+  "C:\\Users\\Madhan\\Desktop\\bizflow\\client\\src\\components\\ui\\Card.jsx": {
+    "mtime": 1784227956.1862829,
+    "ast_hash": "5f9cb6073b746120c874ecee259234e3",
+    "semantic_hash": "5f9cb6073b746120c874ecee259234e3"
+  },
+  "C:\\Users\\Madhan\\Desktop\\bizflow\\client\\src\\components\\ui\\ConfirmDialog.jsx": {
+    "mtime": 1784227990.0723283,
+    "ast_hash": "ee92c80445ef02a68702f0766b22f126",
+    "semantic_hash": "ee92c80445ef02a68702f0766b22f126"
+  },
+  "C:\\Users\\Madhan\\Desktop\\bizflow\\client\\src\\components\\ui\\DataTable.jsx": {
+    "mtime": 1784228049.5763524,
+    "ast_hash": "34e9c0d8737892bd42939dd7fee76f8b",
+    "semantic_hash": "34e9c0d8737892bd42939dd7fee76f8b"
+  },
+  "C:\\Users\\Madhan\\Desktop\\bizflow\\client\\src\\components\\ui\\EmptyState.jsx": {
+    "mtime": 1784228027.25325,
+    "ast_hash": "ac1a7eb9250c5f900af3b569f95f8f44",
+    "semantic_hash": "ac1a7eb9250c5f900af3b569f95f8f44"
+  },
+  "C:\\Users\\Madhan\\Desktop\\bizflow\\client\\src\\components\\ui\\FileUpload.jsx": {
+    "mtime": 1784228046.2047975,
+    "ast_hash": "d97d3156c2e759d0e24e5d2dcbe0d002",
+    "semantic_hash": "d97d3156c2e759d0e24e5d2dcbe0d002"
+  },
+  "C:\\Users\\Madhan\\Desktop\\bizflow\\client\\src\\components\\ui\\Input.jsx": {
+    "mtime": 1784227925.7962892,
+    "ast_hash": "cc01c0e6127a77422e13cb624bc0fd33",
+    "semantic_hash": "cc01c0e6127a77422e13cb624bc0fd33"
+  },
+  "C:\\Users\\Madhan\\Desktop\\bizflow\\client\\src\\components\\ui\\Modal.jsx": {
+    "mtime": 1784227969.9918802,
+    "ast_hash": "650337427e6598e571f90833f01ab97b",
+    "semantic_hash": "650337427e6598e571f90833f01ab97b"
+  },
+  "C:\\Users\\Madhan\\Desktop\\bizflow\\client\\src\\components\\ui\\SearchInput.jsx": {
+    "mtime": 1784228002.549423,
+    "ast_hash": "866005baab73dafbd7517968299ea096",
+    "semantic_hash": "866005baab73dafbd7517968299ea096"
+  },
+  "C:\\Users\\Madhan\\Desktop\\bizflow\\client\\src\\components\\ui\\Select.jsx": {
+    "mtime": 1784227929.9693995,
+    "ast_hash": "f2de912b43e12dcc1246e6c618b471c1",
+    "semantic_hash": "f2de912b43e12dcc1246e6c618b471c1"
+  },
+  "C:\\Users\\Madhan\\Desktop\\bizflow\\client\\src\\components\\ui\\Skeleton.jsx": {
+    "mtime": 1784228000.5274582,
+    "ast_hash": "a461673ba976326ff4885bfeca4cc265",
+    "semantic_hash": "a461673ba976326ff4885bfeca4cc265"
+  },
+  "C:\\Users\\Madhan\\Desktop\\bizflow\\client\\src\\components\\ui\\Spinner.jsx": {
+    "mtime": 1784227995.2049813,
+    "ast_hash": "a605b7851f26a8350fd82b665d48525e",
+    "semantic_hash": "a605b7851f26a8350fd82b665d48525e"
+  },
+  "C:\\Users\\Madhan\\Desktop\\bizflow\\client\\src\\components\\ui\\Textarea.jsx": {
+    "mtime": 1784227933.4172537,
+    "ast_hash": "ac76efdcca2488ba0bb495f0d8154637",
+    "semantic_hash": "ac76efdcca2488ba0bb495f0d8154637"
+  },
+  "C:\\Users\\Madhan\\Desktop\\bizflow\\client\\src\\components\\ui\\index.js": {
+    "mtime": 1784228051.6395574,
+    "ast_hash": "f67225cc45019ce03bc1344bbd8299d7",
+    "semantic_hash": "f67225cc45019ce03bc1344bbd8299d7"
+  },
+  "C:\\Users\\Madhan\\Desktop\\bizflow\\client\\src\\features\\activity-logs\\ActivityLogsPage.jsx": {
+    "mtime": 1784228238.8134804,
+    "ast_hash": "469f4f491e32ee8802495847462d2d38",
+    "semantic_hash": "469f4f491e32ee8802495847462d2d38"
+  },
+  "C:\\Users\\Madhan\\Desktop\\bizflow\\client\\src\\features\\auth\\ForgotPasswordPage.jsx": {
+    "mtime": 1784228288.5941646,
+    "ast_hash": "a1eb2687d779319115ef8f6bb4c8440b",
+    "semantic_hash": "a1eb2687d779319115ef8f6bb4c8440b"
+  },
+  "C:\\Users\\Madhan\\Desktop\\bizflow\\client\\src\\features\\auth\\LoginPage.jsx": {
+    "mtime": 1784228277.2150407,
+    "ast_hash": "4449c28e8a4b5ba8132b09890ebde6d7",
+    "semantic_hash": "4449c28e8a4b5ba8132b09890ebde6d7"
+  },
+  "C:\\Users\\Madhan\\Desktop\\bizflow\\client\\src\\features\\auth\\RegisterPage.jsx": {
+    "mtime": 1784228279.258721,
+    "ast_hash": "f292a5510461465261530fcc1ab699ea",
+    "semantic_hash": "f292a5510461465261530fcc1ab699ea"
+  },
+  "C:\\Users\\Madhan\\Desktop\\bizflow\\client\\src\\features\\auth\\ResetPasswordPage.jsx": {
+    "mtime": 1784228290.6487417,
+    "ast_hash": "af8504633a5e0df9a49f31771c0657b2",
+    "semantic_hash": "af8504633a5e0df9a49f31771c0657b2"
+  },
+  "C:\\Users\\Madhan\\Desktop\\bizflow\\client\\src\\features\\categories\\CategoriesPage.jsx": {
+    "mtime": 1784228221.310826,
+    "ast_hash": "c1c61801400d78d93c6cc670ac7f36b2",
+    "semantic_hash": "c1c61801400d78d93c6cc670ac7f36b2"
+  },
+  "C:\\Users\\Madhan\\Desktop\\bizflow\\client\\src\\features\\customers\\CustomersPage.jsx": {
+    "mtime": 1784228216.0797658,
+    "ast_hash": "8be7a2315cee695575be2f0dc7f16d18",
+    "semantic_hash": "8be7a2315cee695575be2f0dc7f16d18"
+  },
+  "C:\\Users\\Madhan\\Desktop\\bizflow\\client\\src\\features\\dashboard\\DashboardPage.jsx": {
+    "mtime": 1784228211.167537,
+    "ast_hash": "1315f902ed877bf7c24baa37372b5a0a",
+    "semantic_hash": "1315f902ed877bf7c24baa37372b5a0a"
+  },
+  "C:\\Users\\Madhan\\Desktop\\bizflow\\client\\src\\features\\employees\\EmployeesPage.jsx": {
+    "mtime": 1784228213.8288193,
+    "ast_hash": "38c4ad30d02c8ccc97703e5d7ed54cb5",
+    "semantic_hash": "38c4ad30d02c8ccc97703e5d7ed54cb5"
+  },
+  "C:\\Users\\Madhan\\Desktop\\bizflow\\client\\src\\features\\expenses\\ExpensesPage.jsx": {
+    "mtime": 1784228228.8797574,
+    "ast_hash": "1d0e8594fe3278cd06acda5bf6ab0e82",
+    "semantic_hash": "1d0e8594fe3278cd06acda5bf6ab0e82"
+  },
+  "C:\\Users\\Madhan\\Desktop\\bizflow\\client\\src\\features\\invoices\\InvoicesPage.jsx": {
+    "mtime": 1784228226.222022,
+    "ast_hash": "9c85cfdf3007e5eafc418ec55b18bd58",
+    "semantic_hash": "9c85cfdf3007e5eafc418ec55b18bd58"
+  },
+  "C:\\Users\\Madhan\\Desktop\\bizflow\\client\\src\\features\\notifications\\NotificationsPage.jsx": {
+    "mtime": 1784228233.79634,
+    "ast_hash": "6fd8fa83e69a4760aa29b6aec3eb54c1",
+    "semantic_hash": "6fd8fa83e69a4760aa29b6aec3eb54c1"
+  },
+  "C:\\Users\\Madhan\\Desktop\\bizflow\\client\\src\\features\\products\\ProductsPage.jsx": {
+    "mtime": 1784228219.2915595,
+    "ast_hash": "97724f19beb19d5d417ba01659409122",
+    "semantic_hash": "97724f19beb19d5d417ba01659409122"
+  },
+  "C:\\Users\\Madhan\\Desktop\\bizflow\\client\\src\\features\\profile\\ProfilePage.jsx": {
+    "mtime": 1784228242.88535,
+    "ast_hash": "e9ecba996d2fe8595af2094fab364628",
+    "semantic_hash": "e9ecba996d2fe8595af2094fab364628"
+  },
+  "C:\\Users\\Madhan\\Desktop\\bizflow\\client\\src\\features\\reports\\ReportsPage.jsx": {
+    "mtime": 1784228231.1332188,
+    "ast_hash": "900f870250e60f3de7c25fd439ff8212",
+    "semantic_hash": "900f870250e60f3de7c25fd439ff8212"
+  },
+  "C:\\Users\\Madhan\\Desktop\\bizflow\\client\\src\\features\\settings\\SettingsPage.jsx": {
+    "mtime": 1784228240.857629,
+    "ast_hash": "14a50537be5b3d148665006c04a41504",
+    "semantic_hash": "14a50537be5b3d148665006c04a41504"
+  },
+  "C:\\Users\\Madhan\\Desktop\\bizflow\\client\\src\\features\\suppliers\\SuppliersPage.jsx": {
+    "mtime": 1784228223.5548944,
+    "ast_hash": "769835a749b9e16dfccccc1906dc59fb",
+    "semantic_hash": "769835a749b9e16dfccccc1906dc59fb"
+  },
+  "C:\\Users\\Madhan\\Desktop\\bizflow\\client\\src\\lib\\api.js": {
+    "mtime": 1784227843.5018606,
+    "ast_hash": "8e7a025495056839f6984e3b79be075a",
+    "semantic_hash": "8e7a025495056839f6984e3b79be075a"
+  },
+  "C:\\Users\\Madhan\\Desktop\\bizflow\\client\\src\\lib\\constants.js": {
+    "mtime": 1784227856.6604335,
+    "ast_hash": "618bc37a7dddad3e3a85925c04f60649",
+    "semantic_hash": "618bc37a7dddad3e3a85925c04f60649"
+  },
+  "C:\\Users\\Madhan\\Desktop\\bizflow\\client\\src\\lib\\utils.js": {
+    "mtime": 1784227858.780268,
+    "ast_hash": "3aaf55674d43b5823bfef31e07ef18a1",
+    "semantic_hash": "3aaf55674d43b5823bfef31e07ef18a1"
+  },
+  "C:\\Users\\Madhan\\Desktop\\bizflow\\client\\src\\main.jsx": {
+    "mtime": 1784228182.4913585,
+    "ast_hash": "c7e29783d729587a92f94790ae7f8840",
+    "semantic_hash": "c7e29783d729587a92f94790ae7f8840"
+  },
+  "C:\\Users\\Madhan\\Desktop\\bizflow\\client\\src\\providers\\AuthProvider.jsx": {
+    "mtime": 1784227895.1077468,
+    "ast_hash": "018b5ef8b887849f65972987dee557c4",
+    "semantic_hash": "018b5ef8b887849f65972987dee557c4"
+  },
+  "C:\\Users\\Madhan\\Desktop\\bizflow\\client\\src\\providers\\ThemeProvider.jsx": {
+    "mtime": 1784227884.163501,
+    "ast_hash": "d08a8a15c00d75f24eb501ef3834f1ee",
+    "semantic_hash": "d08a8a15c00d75f24eb501ef3834f1ee"
+  },
+  "C:\\Users\\Madhan\\Desktop\\bizflow\\client\\src\\providers\\ToastProvider.jsx": {
+    "mtime": 1784227893.0131054,
+    "ast_hash": "3a0eafac2015e91cd19113b061a84e0b",
+    "semantic_hash": "3a0eafac2015e91cd19113b061a84e0b"
+  },
+  "C:\\Users\\Madhan\\Desktop\\bizflow\\client\\src\\routes\\guards.jsx": {
+    "mtime": 1784228165.1882365,
+    "ast_hash": "5e0d23176d81a0c5dfd1125b70d8a20a",
+    "semantic_hash": "5e0d23176d81a0c5dfd1125b70d8a20a"
+  },
+  "C:\\Users\\Madhan\\Desktop\\bizflow\\client\\src\\routes\\index.jsx": {
+    "mtime": 1784228167.2182283,
+    "ast_hash": "2b99a79f1f58b6475c4b952af40f576b",
+    "semantic_hash": "2b99a79f1f58b6475c4b952af40f576b"
+  },
+  "C:\\Users\\Madhan\\Desktop\\bizflow\\client\\tailwind.config.js": {
+    "mtime": 1784227723.6436388,
+    "ast_hash": "525e39a40d951b3feedff739a6ecb16d",
+    "semantic_hash": "525e39a40d951b3feedff739a6ecb16d"
+  },
+  "C:\\Users\\Madhan\\Desktop\\bizflow\\client\\vite.config.js": {
+    "mtime": 1784228361.3945148,
+    "ast_hash": "f3aa2a1c8ed61a65ab5cf78401e0fb4f",
+    "semantic_hash": "f3aa2a1c8ed61a65ab5cf78401e0fb4f"
+  },
+  "C:\\Users\\Madhan\\Desktop\\bizflow\\server\\package.json": {
+    "mtime": 1784228448.633899,
+    "ast_hash": "32260e3acec93e03a0417a977e57cc20",
+    "semantic_hash": "32260e3acec93e03a0417a977e57cc20"
+  },
+  "C:\\Users\\Madhan\\Desktop\\bizflow\\server\\prisma\\seed.js": {
+    "mtime": 1784228468.6148398,
+    "ast_hash": "bb724e6fccdb78982d072e7599764354",
+    "semantic_hash": "bb724e6fccdb78982d072e7599764354"
+  },
+  "C:\\Users\\Madhan\\Desktop\\bizflow\\server\\server.js": {
+    "mtime": 1784227810.426792,
+    "ast_hash": "8039fdca8dd4c5e7552fa6b454043170",
+    "semantic_hash": "8039fdca8dd4c5e7552fa6b454043170"
+  },
+  "C:\\Users\\Madhan\\Desktop\\bizflow\\server\\src\\app.js": {
+    "mtime": 1784227808.327521,
+    "ast_hash": "284a22b552c58e9476446e7f233efb3a",
+    "semantic_hash": "284a22b552c58e9476446e7f233efb3a"
+  },
+  "C:\\Users\\Madhan\\Desktop\\bizflow\\server\\src\\config\\cloudinary.js": {
+    "mtime": 1784227748.471889,
+    "ast_hash": "8aa43aed0e7950f7495872bd45260bd8",
+    "semantic_hash": "8aa43aed0e7950f7495872bd45260bd8"
+  },
+  "C:\\Users\\Madhan\\Desktop\\bizflow\\server\\src\\config\\db.js": {
+    "mtime": 1784227746.4452739,
+    "ast_hash": "ba557bfd05881e5156802a97af139b68",
+    "semantic_hash": "ba557bfd05881e5156802a97af139b68"
+  },
+  "C:\\Users\\Madhan\\Desktop\\bizflow\\server\\src\\config\\index.js": {
+    "mtime": 1784227744.431076,
+    "ast_hash": "08ae2b20bbe822f4105c025c35f88573",
+    "semantic_hash": "08ae2b20bbe822f4105c025c35f88573"
+  },
+  "C:\\Users\\Madhan\\Desktop\\bizflow\\server\\src\\middleware\\auth.js": {
+    "mtime": 1784227804.5370839,
+    "ast_hash": "09d4800c00d1e010669e36b565a944f1",
+    "semantic_hash": "09d4800c00d1e010669e36b565a944f1"
+  },
+  "C:\\Users\\Madhan\\Desktop\\bizflow\\server\\src\\middleware\\errorHandler.js": {
+    "mtime": 1784227789.9049587,
+    "ast_hash": "82e72d7d1442b4f2d2725f0638d4deb0",
+    "semantic_hash": "82e72d7d1442b4f2d2725f0638d4deb0"
+  },
+  "C:\\Users\\Madhan\\Desktop\\bizflow\\server\\src\\middleware\\validate.js": {
+    "mtime": 1784227795.118159,
+    "ast_hash": "f191f4bee46d0237c9d4d592a502ca58",
+    "semantic_hash": "f191f4bee46d0237c9d4d592a502ca58"
+  },
+  "C:\\Users\\Madhan\\Desktop\\bizflow\\server\\src\\services\\activity.service.js": {
+    "mtime": 1784228951.7311807,
+    "ast_hash": "7f404a0c15b0871711bd5af931af8a64",
+    "semantic_hash": "7f404a0c15b0871711bd5af931af8a64"
+  },
+  "C:\\Users\\Madhan\\Desktop\\bizflow\\server\\src\\utils\\asyncHandler.js": {
+    "mtime": 1784227771.600815,
+    "ast_hash": "283672fd69ce973313bda3b1ffabe18b",
+    "semantic_hash": "283672fd69ce973313bda3b1ffabe18b"
+  },
+  "C:\\Users\\Madhan\\Desktop\\bizflow\\server\\src\\utils\\errors.js": {
+    "mtime": 1784227769.577713,
+    "ast_hash": "dec0ed429f37db414d2e0edd47f4ddb8",
+    "semantic_hash": "dec0ed429f37db414d2e0edd47f4ddb8"
+  },
+  "C:\\Users\\Madhan\\Desktop\\bizflow\\server\\src\\utils\\pagination.js": {
+    "mtime": 1784227767.484047,
+    "ast_hash": "5e905cf6e466cbeabb80707b45bb6fff",
+    "semantic_hash": "5e905cf6e466cbeabb80707b45bb6fff"
+  },
+  "C:\\Users\\Madhan\\Desktop\\bizflow\\server\\src\\utils\\response.js": {
+    "mtime": 1784227765.0297692,
+    "ast_hash": "57ccd32bd3e87ef7f3a0f2700e3ef4d0",
+    "semantic_hash": "57ccd32bd3e87ef7f3a0f2700e3ef4d0"
+  },
+  "C:\\Users\\Madhan\\Desktop\\bizflow\\server\\src\\validators\\auth.validator.js": {
+    "mtime": 1784228949.7359319,
+    "ast_hash": "f57fdf96a4989a4e3571ade41a3dae29",
+    "semantic_hash": "f57fdf96a4989a4e3571ade41a3dae29"
+  },
+  "C:\\Users\\Madhan\\Desktop\\bizflow\\README.md": {
+    "mtime": 1784228806.0193398,
+    "ast_hash": "7597e500c1a3127e4d99f1ba56463ee0",
+    "semantic_hash": "7597e500c1a3127e4d99f1ba56463ee0"
+  },
+  "C:\\Users\\Madhan\\Desktop\\bizflow\\client\\README.md": {
+    "mtime": 1784228824.3487692,
+    "ast_hash": "4fe8736b495737b372fa3dfeec37b166",
+    "semantic_hash": "4fe8736b495737b372fa3dfeec37b166"
+  },
+  "C:\\Users\\Madhan\\Desktop\\bizflow\\client\\index.html": {
+    "mtime": 1784228184.5164144,
+    "ast_hash": "987a37008cf173a89920b084e190ff9d",
+    "semantic_hash": "987a37008cf173a89920b084e190ff9d"
+  },
+  "C:\\Users\\Madhan\\Desktop\\bizflow\\client\\public\\favicon.svg": {
+    "mtime": 1784228332.1088076,
+    "ast_hash": "6dfb26b30b898c397f037585eaede0f2",
+    "semantic_hash": "6dfb26b30b898c397f037585eaede0f2"
+  },
+  "C:\\Users\\Madhan\\Desktop\\bizflow\\client\\public\\icons.svg": {
+    "mtime": 1784227597.8354754,
+    "ast_hash": "3b4fcfcf393eca4d264dca4a4663bc37",
+    "semantic_hash": "3b4fcfcf393eca4d264dca4a4663bc37"
+  },
+  "C:\\Users\\Madhan\\Desktop\\bizflow\\client\\src\\assets\\hero.png": {
+    "mtime": 1784227597.7753298,
+    "ast_hash": "aead493361b27e7510691c5d7072dfc1",
+    "semantic_hash": "aead493361b27e7510691c5d7072dfc1"
+  },
+  "C:\\Users\\Madhan\\Desktop\\bizflow\\client\\src\\assets\\vite.svg": {
+    "mtime": 1784227597.8671334,
+    "ast_hash": "9960a24288958394ac50e57ff638b036",
+    "semantic_hash": "9960a24288958394ac50e57ff638b036"
+  }
+}

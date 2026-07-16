@@ -1,0 +1,276 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+// ─── Enums ────────────────────────────────────────────────────────────────────
+
+enum Role {
+  ADMIN
+  MANAGER
+  EMPLOYEE
+}
+
+enum InvoiceStatus {
+  PAID
+  PENDING
+  CANCELLED
+}
+
+enum EmployeeStatus {
+  ACTIVE
+  INACTIVE
+  ON_LEAVE
+  TERMINATED
+}
+
+// ─── Users ────────────────────────────────────────────────────────────────────
+
+model User {
+  id            String   @id @default(uuid())
+  email         String   @unique
+  password      String
+  name          String
+  role          Role     @default(EMPLOYEE)
+  avatar        String?
+  refreshToken  String?
+  resetToken    String?
+  resetTokenExp DateTime?
+  isActive      Boolean  @default(true)
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+
+  activityLogs  ActivityLog[]
+  notifications Notification[]
+
+  @@map("users")
+}
+
+// ─── Employees ────────────────────────────────────────────────────────────────
+
+model Employee {
+  id              String         @id @default(uuid())
+  photo           String?
+  name            String
+  email           String         @unique
+  phone           String?
+  department      String
+  position        String
+  salary          Decimal        @db.Decimal(12, 2)
+  joiningDate     DateTime
+  status          EmployeeStatus @default(ACTIVE)
+  attendanceRate  Decimal?       @db.Decimal(5, 2)
+  leaves          Int            @default(0)
+  performanceRate Decimal?       @db.Decimal(3, 1)
+  address         String?
+  notes           String?
+  createdAt       DateTime       @default(now())
+  updatedAt       DateTime       @updatedAt
+
+  @@map("employees")
+}
+
+// ─── Customers ────────────────────────────────────────────────────────────────
+
+model Customer {
+  id            String   @id @default(uuid())
+  name          String
+  email         String?  @unique
+  phone         String?
+  company       String?
+  gstNumber     String?
+  address       String?
+  city          String?
+  state         String?
+  zipCode       String?
+  notes         String?
+  totalPurchase Decimal  @default(0) @db.Decimal(14, 2)
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+
+  invoices Invoice[]
+
+  @@map("customers")
+}
+
+// ─── Categories ───────────────────────────────────────────────────────────────
+
+model Category {
+  id          String   @id @default(uuid())
+  name        String   @unique
+  description String?
+  slug        String   @unique
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  products Product[]
+
+  @@map("categories")
+}
+
+// ─── Suppliers ────────────────────────────────────────────────────────────────
+
+model Supplier {
+  id        String   @id @default(uuid())
+  name      String
+  email     String?  @unique
+  phone     String?
+  company   String?
+  gstNumber String?
+  address   String?
+  city      String?
+  state     String?
+  zipCode   String?
+  notes     String?
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  products Product[]
+
+  @@map("suppliers")
+}
+
+// ─── Products ─────────────────────────────────────────────────────────────────
+
+model Product {
+  id           String   @id @default(uuid())
+  name         String
+  sku          String   @unique
+  barcode      String?  @unique
+  image        String?
+  description  String?
+  buyingPrice  Decimal  @db.Decimal(12, 2)
+  sellingPrice Decimal  @db.Decimal(12, 2)
+  stock        Int      @default(0)
+  minStock     Int      @default(5)
+  isActive     Boolean  @default(true)
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+
+  categoryId String
+  category   Category @relation(fields: [categoryId], references: [id])
+
+  supplierId String?
+  supplier   Supplier? @relation(fields: [supplierId], references: [id])
+
+  invoiceItems InvoiceItem[]
+
+  @@map("products")
+}
+
+// ─── Invoices ─────────────────────────────────────────────────────────────────
+
+model Invoice {
+  id            String        @id @default(uuid())
+  invoiceNumber String        @unique
+  invoiceDate   DateTime      @default(now())
+  dueDate       DateTime?
+  subtotal      Decimal       @db.Decimal(14, 2)
+  taxRate       Decimal       @default(0) @db.Decimal(5, 2)
+  taxAmount     Decimal       @default(0) @db.Decimal(12, 2)
+  discount      Decimal       @default(0) @db.Decimal(12, 2)
+  grandTotal    Decimal       @db.Decimal(14, 2)
+  status        InvoiceStatus @default(PENDING)
+  notes         String?
+  createdAt     DateTime      @default(now())
+  updatedAt     DateTime      @updatedAt
+
+  customerId String
+  customer   Customer @relation(fields: [customerId], references: [id])
+
+  items InvoiceItem[]
+
+  @@map("invoices")
+}
+
+// ─── Invoice Items ────────────────────────────────────────────────────────────
+
+model InvoiceItem {
+  id       String  @id @default(uuid())
+  quantity Int
+  price    Decimal @db.Decimal(12, 2)
+  discount Decimal @default(0) @db.Decimal(12, 2)
+  total    Decimal @db.Decimal(14, 2)
+
+  invoiceId String
+  invoice   Invoice @relation(fields: [invoiceId], references: [id], onDelete: Cascade)
+
+  productId String
+  product   Product @relation(fields: [productId], references: [id])
+
+  @@map("invoice_items")
+}
+
+// ─── Expenses ─────────────────────────────────────────────────────────────────
+
+model Expense {
+  id          String   @id @default(uuid())
+  title       String
+  amount      Decimal  @db.Decimal(12, 2)
+  category    String
+  description String?
+  date        DateTime @default(now())
+  receipt     String?
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  @@map("expenses")
+}
+
+// ─── Activity Logs ────────────────────────────────────────────────────────────
+
+model ActivityLog {
+  id        String   @id @default(uuid())
+  action    String
+  entity    String
+  entityId  String?
+  details   String?
+  ipAddress String?
+  createdAt DateTime @default(now())
+
+  userId String
+  user   User   @relation(fields: [userId], references: [id])
+
+  @@map("activity_logs")
+}
+
+// ─── Notifications ────────────────────────────────────────────────────────────
+
+model Notification {
+  id        String   @id @default(uuid())
+  type      String
+  title     String
+  message   String
+  isRead    Boolean  @default(false)
+  data      Json?
+  createdAt DateTime @default(now())
+
+  userId String?
+  user   User?   @relation(fields: [userId], references: [id])
+
+  @@map("notifications")
+}
+
+// ─── Company Settings ─────────────────────────────────────────────────────────
+
+model CompanySettings {
+  id           String   @id @default(uuid())
+  logo         String?
+  businessName String   @default("BizFlow")
+  gstNumber    String?
+  address      String?
+  email        String?
+  phone        String?
+  currency     String   @default("INR")
+  timezone     String   @default("Asia/Kolkata")
+  language     String   @default("en")
+  darkMode     Boolean  @default(false)
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+
+  @@map("company_settings")
+}
