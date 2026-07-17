@@ -1,7 +1,0 @@
-C:\Users\Madhan\Desktop\bizflow\README.md
-C:\Users\Madhan\Desktop\bizflow\client\README.md
-C:\Users\Madhan\Desktop\bizflow\client\index.html
-C:\Users\Madhan\Desktop\bizflow\client\public\favicon.svg
-C:\Users\Madhan\Desktop\bizflow\client\public\icons.svg
-C:\Users\Madhan\Desktop\bizflow\client\src\assets\hero.png
-C:\Users\Madhan\Desktop\bizflow\client\src\assets\vite.svg

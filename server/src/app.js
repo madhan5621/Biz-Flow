@@ -13,6 +13,14 @@ import dashboardRoutes from './routes/dashboard.routes.js';
 import employeeRoutes from './routes/employee.routes.js';
 import customerRoutes from './routes/customer.routes.js';
 import supplierRoutes from './routes/supplier.routes.js';
+import categoryRoutes from './routes/category.routes.js';
+import productRoutes from './routes/product.routes.js';
+import invoiceRoutes from './routes/invoice.routes.js';
+import expenseRoutes from './routes/expense.routes.js';
+import reportRoutes from './routes/report.routes.js';
+import notificationRoutes from './routes/notification.routes.js';
+import activityLogRoutes from './routes/activitylog.routes.js';
+import settingsRoutes from './routes/settings.routes.js';
 
 // ─── Express App ────────────────────────────────────────────────────────────
 const app = express();
@@ -69,7 +77,14 @@ app.use('/api/dashboard', apiLimiter, dashboardRoutes);
 app.use('/api/employees', apiLimiter, employeeRoutes);
 app.use('/api/customers', apiLimiter, customerRoutes);
 app.use('/api/suppliers', apiLimiter, supplierRoutes);
-// etc.
+app.use('/api/categories', apiLimiter, categoryRoutes);
+app.use('/api/products', apiLimiter, productRoutes);
+app.use('/api/invoices', apiLimiter, invoiceRoutes);
+app.use('/api/expenses', apiLimiter, expenseRoutes);
+app.use('/api/reports', apiLimiter, reportRoutes);
+app.use('/api/notifications', apiLimiter, notificationRoutes);
+app.use('/api/activity-logs', apiLimiter, activityLogRoutes);
+app.use('/api/settings', apiLimiter, settingsRoutes);
 
 // ─── 404 Handler ────────────────────────────────────────────────────────────
 app.use('/api/{*splat}', (_req, res) => {
