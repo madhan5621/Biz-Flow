@@ -8,7 +8,11 @@ import config from './config/index.js';
 import errorHandler from './middleware/errorHandler.js';
 
 // ─── Route imports ──────────────────────────────────────────────────────────
-// Routes will be imported here as modules are built
+import authRoutes from './routes/auth.routes.js';
+import dashboardRoutes from './routes/dashboard.routes.js';
+import employeeRoutes from './routes/employee.routes.js';
+import customerRoutes from './routes/customer.routes.js';
+import supplierRoutes from './routes/supplier.routes.js';
 
 // ─── Express App ────────────────────────────────────────────────────────────
 const app = express();
@@ -60,13 +64,15 @@ app.get('/api/health', (_req, res) => {
 });
 
 // ─── API Routes ─────────────────────────────────────────────────────────────
-// Each module will register its routes here
-// app.use('/api/auth', authLimiter, authRoutes);
-// app.use('/api/dashboard', apiLimiter, dashboardRoutes);
+app.use('/api/auth', authLimiter, authRoutes);
+app.use('/api/dashboard', apiLimiter, dashboardRoutes);
+app.use('/api/employees', apiLimiter, employeeRoutes);
+app.use('/api/customers', apiLimiter, customerRoutes);
+app.use('/api/suppliers', apiLimiter, supplierRoutes);
 // etc.
 
 // ─── 404 Handler ────────────────────────────────────────────────────────────
-app.use('/api/*', (_req, res) => {
+app.use('/api/{*splat}', (_req, res) => {
   res.status(404).json({
     success: false,
     message: 'API endpoint not found',
